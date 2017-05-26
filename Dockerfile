@@ -23,7 +23,7 @@ RUN curl -o /tmp/go1.3.3.linux-amd64.tar.gz https://storage.googleapis.com/golan
 
 RUN git config --global user.email "package@datadoghq.com" && \
     git config --global user.name "Debian Omnibus Package" && \
-    git clone https://github.com/DataDog/dd-agent-omnibus.git
+    git clone https://github.com/gasiorroiasg/dd-agent-omnibus.git
 
 RUN git clone https://github.com/DataDog/integrations-extras.git
 RUN git clone https://github.com/DataDog/integrations-core.git
